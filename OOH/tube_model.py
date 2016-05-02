@@ -15,7 +15,7 @@ Model:
 
 '''
 
-conversions_data = np.array([1, 2, 1, 2, 3, 4, 1, 2, 3, 15, 17, 13, 18, 21, 14, 15, 17])
+conversions_data = np.array([1, 2, 1, 2, 3, 4, 1, 2, 3, 5, 7, 3, 8, 7, 4, 5, 7])
 start_t = DiscreteUniform("start_t", lower=0, upper=len(conversions_data))
 
 before_mean = Exponential('before_mean', beta=1.)
